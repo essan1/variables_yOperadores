@@ -26,5 +26,5 @@ dias = dias % 7;
 
 //IMPRIMIMOS RESULTADO
 document.write(
-  `Muy bien, tenemos que ${diasUser} dias, equivalen a: </br> ${years} año(s), ${weeks} semana(s) y ${dias} dia(s)`
+  `<p style="font-family: 'Roboto', sans-serif; line-height: 2;">Muy bien, tenemos que ${diasUser} dias, equivalen a: </br> ${years} año(s), ${weeks} semana(s) y ${dias} dia(s)</p>`
 );

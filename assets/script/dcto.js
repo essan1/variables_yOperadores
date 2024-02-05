@@ -21,7 +21,7 @@ let descuento = +prompt(
 let valorFinal = Math.floor(valorOriginal - ((valorOriginal * descuento) / 100));
 
 // SE IMPRIME
-document.write(`Excelente ${userName}! </br>
+document.write(`<p style="font-family: 'Roboto', sans-serif; line-height: 2;">Excelente ${userName}! </br>
 Tenemos que el valor original del producto es $${valorOriginal} </br>
 y el porcentaje de descuento que le sera aplicado es del ${descuento}%. </br>
-Por lo que el nuevo valor sera de ${valorFinal}.`);
+Por lo que el nuevo valor sera de ${valorFinal}.</p>`);

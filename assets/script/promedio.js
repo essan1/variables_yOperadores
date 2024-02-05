@@ -21,7 +21,7 @@ let suma = (num1 + num2 + num3 + num4 + num5).toFixed(1);
 let promedio = (suma / 5).toFixed(1);
 
 //IMPRIMIMOS
-document.write(`Excelente, ${userName}, </br>
+document.write(`<p style="font-family: 'Roboto', sans-serif; line-height: 2;">Excelente, ${userName}, </br>
 tus numeros fueron los siguientes: ${num1}, ${num2}, ${num3}, ${num4}, ${num5} </br>
 La suma de todos ellos equivale a: ${suma}. </br>
-Y el promedio es ${promedio}. `);
+Y el promedio es ${promedio}.</p> `);
