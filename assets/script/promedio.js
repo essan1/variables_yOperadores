@@ -1,7 +1,7 @@
 let userName = prompt(`Hola!
 Cuentanos, cual es tu nombre?`);
 
-alert(`Muy bien ${userName}, vamos a vamos a sumar y promediar 5 numeros que nos indiques!`);
+alert(`Muy bien ${userName}, vamos a sumar y promediar 5 numeros que nos indiques!`);
 
 let num1 = +prompt('Ingresa el 1er Numero: ');
 let num2 = +prompt("Ingresa el 2do Numero: ");
