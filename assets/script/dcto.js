@@ -18,7 +18,7 @@ let descuento = +prompt(
 );
 
 // APLICAMOS LA OPERACION MATEMATICA PARA CALCULAR EL PRECIO FINAL
-let valorFinal = valorOriginal - ((valorOriginal * descuento) / 100);
+let valorFinal = Math.floor(valorOriginal - ((valorOriginal * descuento) / 100));
 
 // SE IMPRIME
 document.write(`Excelente ${userName}! </br>

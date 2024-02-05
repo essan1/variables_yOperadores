@@ -15,10 +15,10 @@ let num4 = +prompt("Ingresa el 4to Numero: ");
 let num5 = +prompt("Ingresa el 5to Numero: ");
 
 // LOS SUMAMOS
-let suma = num1 + num2 + num3 + num4 + num5;
+let suma = (num1 + num2 + num3 + num4 + num5).toFixed(1);
 
 // DIVIDIMOS LA SUMA EN 5 PARA CALCULAR EL PROMEDIO
-let promedio = suma / 5;
+let promedio = (suma / 5).toFixed(1);
 
 //IMPRIMIMOS
 document.write(`Excelente, ${userName}, </br>

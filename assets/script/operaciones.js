@@ -11,10 +11,10 @@ let num1 = +prompt("Ingresa el primer Numero");
 let num2 = +prompt("Ingresa el segundo Numero");
 
 // SE IMPRIME LA RESPUESTA CON UN Document.WRITE DONDE ADEMAS REALIZAMOS LOS CALCULOS PARA AHORRAR LINEAS DE CODIGO
-document.write(`${userName}, los numeros que seleccionaste fueron ${num1} & ${num2} </br>
+document.write(`${userName}, los numeros que ingresaste fueron ${num1} & ${num2} </br>
 La suma de ambos numeros es igual a 
 ${num1 + num2}. </br>
 La resta de ambos numeros es igual a ${num1 - num2} </br>
 La multiplicacion de ambos numeros es igual a ${num1 * num2} </br>
-La division de ambos numeros es igual a ${num1 / num2} </br>
+La division de ambos numeros es igual a ${(num1 / num2).toFixed(2)} </br>
 Y, finalmente, el modulo de ambos numeros es igual a ${num1 % num2}`);
