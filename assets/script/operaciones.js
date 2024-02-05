@@ -5,7 +5,7 @@ alert(`${userName}, vamos a hacer un par de operaciones matematicas!
 Necesitamos que ingreses dos numeros, que sean diferentes, y mayores a cero.`);
 
 let num1 = +prompt("Ingresa el primer Numero");
-let num2 = +prompt("Ingresa el primer Numero");
+let num2 = +prompt("Ingresa el segundo Numero");
 
 document.write(`${userName}, la suma de ambos numeros es igual a 
 ${num1 + num2}. </br>
