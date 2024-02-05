@@ -1,10 +1,8 @@
-let userName = prompt(`Hola! Primero que todo,
-cuentanos, cual es tu nombre?`);
+let userName = prompt(`Hola!
+Cuentanos, cual es tu nombre?`);
 
-alert(`Hola ${userName}! Vamos a hacer un par de
-operaciones matematicas! 
-Necesitamos que ingreses dos numeros, que sean
-diferentes, y mayores a cero.`);
+alert(`${userName}, vamos a hacer un par de operaciones matematicas! 
+Necesitamos que ingreses dos numeros, que sean diferentes, y mayores a cero.`);
 
 let num1 = +prompt("Ingresa el primer Numero");
 let num2 = +prompt("Ingresa el primer Numero");
