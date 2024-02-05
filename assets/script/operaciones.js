@@ -1,4 +1,5 @@
-// SALUDO Y PRESENTACION DEL PROGRAMA AL USER 
+
+// SALUDO Y PRESENTACION DEL PROGRAMA AL USER
 
 let userName = prompt(`Hola!
 Cuentanos, cual es tu nombre?`);
@@ -6,7 +7,7 @@ Cuentanos, cual es tu nombre?`);
 alert(`${userName}, vamos a hacer un par de operaciones matematicas! 
 Necesitamos que ingreses dos numeros, que sean diferentes, y mayores a cero.`);
 
-// SE LE PIDE AL USER QUE INGRESE LOS 2 NUMEROS 
+// SE LE PIDE AL USER QUE INGRESE LOS 2 NUMEROS
 let num1 = +prompt("Ingresa el primer Numero");
 let num2 = +prompt("Ingresa el segundo Numero");
 
