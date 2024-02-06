@@ -9,7 +9,7 @@ alert(
 
 // PREGUNTAMOS POR EL VALOR ORIGINAL
 let valorOriginal = +prompt(
-  "Indicanos cual es el precio original del producto: "
+  "Indicanos cual es el precio original del producto (Como numero entero, sin puntos ni comas): "
 );
 
 //PREGUNTAMOS CUANTO DESCUENTO SE LE VA A APLICAR AL VALOR ORIGINAL
